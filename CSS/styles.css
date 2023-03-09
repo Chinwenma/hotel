@@ -16,6 +16,7 @@
 /* 1 General */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -59,7 +60,7 @@ a {
 
 ::-webkit-scrollbar-thumb {
     background: var(--primary-color);
-} 
+}
 
 section {
     padding: 3.125rem 0;
@@ -186,7 +187,7 @@ p {
     left: 0;
     width: 100%;
     z-index: 999;
-    background-color:  #c1adbd;
+    background-color: #c1adbd;
     -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
@@ -242,10 +243,20 @@ p {
     background-color: #c1adbd;
     border: .0625rem solid var(--bg-white);
 }
- .ok img {
-    display: block;
-    margin: 0 auto;
-  }
+
+.ok img {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+
+    /* display: block;
+    margin: 0 auto; */
+}
+
 .banner_wrapper .swiper .slide-caption {
     height: 100%;
     position: relative;
@@ -262,7 +273,7 @@ p {
 }
 
 .booking-area {
-    background:  #c1adbd;
+    background: #c1adbd;
     box-shadow: 0 .625rem .9375rem 0 rgb(0 0 0 / 10%);
     margin-top: -4rem;
     padding: 3.125rem 1.875rem;
@@ -299,7 +310,7 @@ p {
 }
 
 .room-item img {
-    width:100%;
+    width: 100%;
     -webkit-transition: all 400ms ease-in 0s;
     transition: all 400ms ease-in 0s;
 }
@@ -609,7 +620,7 @@ p {
     list-style: none;
 }
 
-.footer_wrapper .contact-info li a{
+.footer_wrapper .contact-info li a {
     color: var(--secondary-color)
 }
 
@@ -617,7 +628,7 @@ p {
 .footer_wrapper p {
     color: var(--text-gray);
     font-size: .875rem;
-    padding-left:1.5rem;
+    padding-left: 1.5rem;
     position: relative;
     -webkit-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
@@ -643,7 +654,7 @@ p {
     width: 2.1875rem;
     height: 2.1875rem;
     margin: .5rem;
-    line-height:2rem;
+    line-height: 2rem;
     font-size: .875rem;
     display: inline-block;
     border: .125rem solid var(--text-gray);
@@ -680,9 +691,9 @@ p {
 }
 
 
-<!---Responsive Design--->
+/*Responsive Design*/
 
-@media (max-width: 1199px) {
+@media (max-width:1199px) {
 
     /* header */
     .navbar-expand-lg .navbar-nav {
@@ -779,7 +790,7 @@ p {
 
     /* services */
     .service-menu-area {
-        padding:1.5rem 0.5rem;
+        padding: 1.5rem 0.5rem;
     }
 
     .service-menu-area ul li {
@@ -825,6 +836,3 @@ p {
         padding: 0 1.875rem;
     }
 }
-
-        
-      

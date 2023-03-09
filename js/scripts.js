@@ -84,3 +84,8 @@ window.addEventListener("load", function() {
     preloader.style.display = "none";
   });
 
+//after window is loaded completely 
+// window.onload ("load", function() {
+//     //hide the preloader
+//     document.querySelector("#preloader").style.display = "none";
+// });
