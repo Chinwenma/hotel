@@ -680,7 +680,7 @@ p {
 }
 
 .footer_wrapper .copyright-section {
-    background-color: var(--primary-color);
+    background-color: #c1adbd;
     padding: 1.25rem 0 .3125rem;
     text-align: center;
 }
