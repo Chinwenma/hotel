@@ -51,15 +51,15 @@ a {
 }
 
 ::-webkit-scrollbar {
-    width: .375rem;
+    width:.475rem;
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--secondary-color);
+    background:#c1adbd ;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--primary-color);
+    background:rgb(11, 10, 10);
 }
 
 section {
@@ -691,6 +691,53 @@ p {
 }
 
 
+/*contact page*/
+.contact-form .form-control{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #000;
+    display: block;
+    margin: 1.6rem auto;
+}
+.contact-form .btn{
+    display: block;
+    margin: auto;
+}
+.contact-icon{
+    background-color: var(--green);
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 1rem auto;
+    font-size: 2rem;
+}
+.contact-item{
+    text-align: center;
+    margin: 3rem 0;
+}
+.contact-item div span{
+    font-weight: 600;
+    font-family: "Ralway", sans-serif;
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+.controll{
+    width: 100%;
+    margin: 0.6rem 0;
+    max-width: 500px;
+    border: 1px solid #fff;
+    border-radius: 0.2rem;
+    padding: 0.7rem;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    background-color: transparent;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
 /*Responsive Design*/
 
 @media (max-width:1199px) {
@@ -800,6 +847,41 @@ p {
     /* room */
     .room-item .room-content {
         padding: 2rem 1.875rem;
+    }
+
+    /*contact page*/
+    .contact-row{
+        row-gap: 0;
+    }
+    .contact-form .form-control{
+        margin-left: 0;
+    }
+    .contact-form .form-control:nth-child(1){
+        margin-top: 0;
+    }
+    .contact-right{
+        margin: 0;
+    }
+    .contact-form .btn{
+        margin-left: 0;
+    }
+    .contact-icon{
+        width: 45px;
+        height: 45px;
+        font-size: 1.4rem;
+        margin: 0 1rem;
+    }
+    .contact-item{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        text-align: left;
+    }
+    .contact-item:nth-child(1){
+        margin-top: 0;
     }
 
 }

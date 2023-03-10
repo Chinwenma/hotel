@@ -25,10 +25,7 @@
 
 </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
-    <div class="text-center ok" id="preloader">
-        <img src="./images/Spinner-7.1s-124px.svg" alt="Loading...">
-    </div>
+<body>
     <!-- Navbar section -->
     <header class="header_wrapper container-fluid">
         <nav class="navbar navbar-expand-lg">
@@ -51,7 +48,7 @@
                         </li>
 
                         <li class="nav-item dropdown ">
-                            <a class="nav-link dropdown-toggle" href="./pages/servies.html" role="button"
+                            <a class="nav-link dropdown-toggle" href="" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">Services</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Retreat Space</a></li>
@@ -61,11 +58,12 @@
                                 <li><a class="dropdown-item" href="#">Laundry</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/contact.html">Contact</a>
-                        </li>
+                        
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contact.html">Contact</a>
                         </li>
 
                         <li class="nav-item mt-3 mt-lg-0">
@@ -78,12 +76,154 @@
     </header>
     <!-- Navbar section exit -->
 
+    <!-- Banner section -->
+    <section id="home" class="banner_wrapper p-0  container-fluid">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url(./imagecompressor/dracc15-min.jpg);">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1>Welcome TO Dracc</h1>
+                            <p>Divine Love Retreat and Conference Center</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(./imagecompressor/dracc10-min.jpg);">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1 class="text-red-600">Welcome TO Dracc</h1>
+                            <p>Divine Love Retreat and Conference Center</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(./images/slider/slider2.webp);">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1 class="text-red-600">Welcome TO Dracc</h1>
+                            <p>Divine Love Retreat and Conference Center</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(./images/slider/slider1.webp);">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1 class="text-red-600">Welcome TO Dracc</h1>
+                            <p>Divine Love Retreat and Conference Center</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(./imagecompressor/dracc12-min.jpg);">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1>Welcome TO Dracc</h1>
+                            <p>Divine Love Retreat and Conference Center</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(./imagecompressor/dracc\ 24-min.jpg);">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1>Welcome TO Dracc</h1>
+                            <p>Divine Love Retreat and Conference Center</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="container booking-area">
+            <form class="row">
+                <div class="col-lg mb-3 mb-lg-0">
+                    <input type="date" class="form-control" placeholder="Date">
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <input type="date" class="form-control" placeholder="Date">
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <select class="form-select">
+                        <option selected>Adults</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <select class="form-select">
+                        <option selected>Children</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <button type="submit" class="main-btn rounded-2 px-lg-3">Check Availability</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Banner section exit -->
 
 
+    <!-- Team section -->
+  
 
+    <section id = "contact" class = "py-4">
+        <div class = "container">
+            <div class = "title-wrap">
+                <span class = "sm-title">get in touch with us</span>
+                <h2 class = "lg-title">contact us</h2>
+            </div>
 
-     <!-- Footer section -->
-     <section id="contact" class="footer_wrapper mt-3 mt-md-0 pb-0">
+            <div class = "contact-row">
+                <div class = "contact-left">
+                    <form class = "contact-form">
+                        <input type = "text" class = "controll" placeholder="Your name">
+                        <input type = "email" class = "controll" placeholder="Your email">
+                        <textarea rows = "4" class = "controll" placeholder="Your message" style = "resize: none;"></textarea>
+                        <input type = "submit" class = "btn" value = "Send message">
+                    </form>
+                </div>
+                <div class = "contact-right my-2">
+                    <div class = "contact-item">
+                        <span class = "contact-icon flex">
+                            <i class = "fa fa-phone-alt"></i>
+                        </span>
+                        <div>
+                            <span>Phone</span>
+                            <p class = "text">+01-584-886-009</p>
+                        </div>
+                    </div>
+                    <div class = "contact-item">
+                        <span class = "contact-icon flex">
+                            <i class = "fa fa-map-marked-alt"></i>
+                        </span>
+                        <div>
+                            <span>Address</span>
+                            <p class = "text">102 East 22nd Street, NY</p>
+                        </div>
+                    </div>
+                    <div class = "contact-item">
+                        <span class = "contact-icon flex">
+                            <i class = "fa fa-envelope"></i>
+                        </span>
+                        <div>
+                            <span>Message</span>
+                            <p class = "text">info@tripboss.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0 pb-0">
         <div class="container pb-3">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
@@ -140,7 +280,7 @@
             </div>
         </div>
         <div class="container-fluid copyright-section">
-            <p>Copyright <a href="#">Â© CODE4EDUCATION.</a> All Rights Reserved</p>
+            <p>Copyright <a href="#">Divine Love Retreat and Conference Center</a> All Rights Reserved</p>
         </div>
     </section>
     <!--Footer section exit-->
