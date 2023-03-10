@@ -78,14 +78,3 @@ var swiper = new Swiper(".our-partner", {
     },
 });
 
-//preloader
-xhr.addEventListener("loadstart", function() {
-    var preloader = document.getElementById("preloader");
-    preloader.style.display = "block";
-  });
-  
-  window. addEventListener("loadend", function() {
-      var preloader = document.getElementById("preloader");
-      preloader.style.display = "none";
-      preloader.style.zIndex = "-2";
-    });
