@@ -79,13 +79,13 @@ var swiper = new Swiper(".our-partner", {
 });
 
 //preloader
-window.addEventListener("load", function() {
+xhr.addEventListener("loadstart", function() {
     var preloader = document.getElementById("preloader");
-    preloader.style.display = "none";
+    preloader.style.display = "block";
   });
-
-//after window is loaded completely 
-// window.onload ("load", function() {
-//     //hide the preloader
-//     document.querySelector("#preloader").style.display = "none";
-// });
+  
+  window. addEventListener("loadend", function() {
+      var preloader = document.getElementById("preloader");
+      preloader.style.display = "none";
+      preloader.style.zIndex = "-2";
+    });
