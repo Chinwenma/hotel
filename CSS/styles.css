@@ -244,19 +244,6 @@ p {
     border: .0625rem solid var(--bg-white);
 }
 
-.ok img {
-
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 1000;
-
-    /* display: block;
-    margin: 0 auto; */
-}
-
 .banner_wrapper .swiper .slide-caption {
     height: 100%;
     position: relative;
@@ -387,8 +374,8 @@ p {
 
 .service-menu-area ul li a .service-icon:hover,
 .service-menu-area ul li a.active .service-icon {
-    background-color: #021832;
-    color: #fff;
+    background-color: #836f89;
+    color: #0d0d0d;
     box-shadow: 0 .125rem 1.25rem rgb(34 30 31 / 40%);
 }
 
@@ -917,4 +904,5 @@ p {
     .footer_wrapper>div {
         padding: 0 1.875rem;
     }
+
 }
