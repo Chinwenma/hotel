@@ -63,15 +63,15 @@ var swiper = new Swiper(".our-partner", {
     breakpoints: {
         '991': {
             slidesPerView: 5,
-            spaceBetween: 10,
+            spaceBetween: 5,
         },
         '767': {
             slidesPerView: 3,
-            spaceBetween: 10,
+            spaceBetween: 5,
         },
         '320': {
             slidesPerView: 2,
-            spaceBetween: 8,
+            spaceBetween: 5,
         },
 
 
