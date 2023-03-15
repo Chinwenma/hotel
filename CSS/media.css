@@ -83,8 +83,12 @@
 
 .containers{
     margin: 5rem auto;
-  width: 85%;
+  width:100%;
   background: #fff;
+  background-image: url(../images/slider/slider1.webp);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -120,7 +124,7 @@
 }
 .contents .left-side .details i{
   font-size: 30px;
-  color: #3e2093;
+  color: #171422;
   margin-bottom: 10px;
 }
 .contents .left-side .details .topic{
@@ -130,7 +134,9 @@
 .contents .left-side .details .text-one,
 .contents .left-side .details .text-two{
   font-size: 14px;
-  color: #afafb6;
+  /* color: #0b0b11; */
+  color:#F0F1F8;
+
 }
 
 
@@ -141,7 +147,7 @@
 .contents .right-side .topic-text{
   font-size: 23px;
   font-weight: 600;
-  color: #3e2093;
+  color: #211e2b;
 }
 .right-side .input-box{
   height: 50px;
@@ -174,30 +180,31 @@
   color: #fff;
   font-size: 18px;
   outline: none;
+  margin-left: auto;
   border: none;
   padding: 8px 16px;
   border-radius: 6px;
-  background: #3e2093;
+  background: #0e0d10;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .button input[type="button"]:hover{
-  background: #5029bc;
+  background: #3e3243;
 }
 
-@media (max-width: 950px) {
-  .containers{
+/* @media (max-width: 950px) { */
+  /* .containers{
     width: 90%;
     padding: 30px 40px 40px 35px ;
   }
   .containers .contents .right-side{
    width: 75%;
    margin-left: 55px;
-}
-}
+} */
+
 @media (max-width: 820px) {
   .containers{
-    margin: 40px 0;
+    margin: auto;
     height: 100%;
   }
   .containers .contents{

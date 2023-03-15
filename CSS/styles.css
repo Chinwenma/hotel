@@ -628,9 +628,9 @@ p {
 }
 
 .footer_wrapper .social-network a:hover {
-    background-color: var(--secondary-color);
+    background-color: #a48c9f;
     border-color: var(--secondary-color);
-    color: var(--text-white);
+    color: black;
     box-shadow: 0 .625rem .9375rem 0 rgb(0 0 0 / 10%);
     transform: translateY(-0.1875rem);
 }
@@ -642,14 +642,18 @@ p {
 }
 
 .footer_wrapper .copyright-section {
-    background-color: #c1adbd;
+    background-color: #a48c9f;
     padding: 1.25rem 0 .3125rem;
     text-align: center;
+}
+.ok{
+    color: #000;
+ 
 }
 
 
 .footer_wrapper .copyright-section a {
-    color: var(--secondary-text);
+    color: rgb(26, 24, 24);
 }
 
 
@@ -767,6 +771,15 @@ p {
         padding: 2rem 1.875rem;
     }
 
+    .containers{
+        width: 90%;
+        padding: 30px 40px 40px 35px ;
+      }
+      .containers .contents .right-side{
+       width: 75%;
+       margin-left: 55px;
+    }
+
 
 }
 
@@ -801,5 +814,27 @@ p {
     .footer_wrapper>div {
         padding: 0 1.875rem;
     }
+
+    .containers{
+        margin: auto;
+        height: 100%;
+      }
+      .containers .contents{
+        flex-direction: column-reverse;
+      }
+     .containers .contents .left-side{
+       width: 100%;
+       flex-direction: row;
+       margin-top: 40px;
+       justify-content: center;
+       flex-wrap: wrap;
+     }
+     .containers .contents .left-side::before{
+       display: none;
+     }
+     .containers .contents .right-side{
+       width: 100%;
+       margin-left: 0;
+     }
 
 }
