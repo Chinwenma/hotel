@@ -83,6 +83,7 @@
 
 .containers{
     margin: 5rem auto;
+    margin-top: 10px;
   width:100%;
   background: #fff;
   background-image: url(../images/slider/slider1.webp);
