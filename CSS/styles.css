@@ -163,7 +163,7 @@ p {
 
 .header_wrapper .nav-item .nav-link.active,
 .header_wrapper .nav-item .nav-link:hover {
-    color: var(--secondary-text);
+    color: rgb(51, 68, 51);
 }
 
 .navbar.header-scrolled {
